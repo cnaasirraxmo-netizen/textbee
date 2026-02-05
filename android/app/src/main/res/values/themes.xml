@@ -1,30 +1,43 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.SMSGateway" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">#D97706</item>
-        <item name="colorPrimaryVariant">#B86504</item>
+
+    <!-- Base application theme -->
+    <style name="Theme.SMSSomali" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color (Toolbar, Buttons) -->
+        <item name="colorPrimary">#1E88E5</item> <!-- Blue -->
+        <item name="colorPrimaryVariant">#1565C0</item>
         <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">#f35b04</item>
-        <item name="colorSecondaryVariant">#f18701</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
+        
+        <!-- Secondary brand color (Accent buttons, highlights) -->
+        <item name="colorSecondary">#43A047</item> <!-- Green -->
+        <item name="colorSecondaryVariant">#2E7D32</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Status bar color -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        
+        <!-- Navigation bar color -->
+        <item name="android:navigationBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+
+        <!-- Customize your theme here -->
     </style>
     
     <!-- Theme without action bar for MainActivity -->
-    <style name="Theme.SMSGateway.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">#D97706</item>
-        <item name="colorPrimaryVariant">#B86504</item>
+    <style name="Theme.SMSSomali.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#1E88E5</item>
+        <item name="colorPrimaryVariant">#1565C0</item>
         <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">#f35b04</item>
-        <item name="colorSecondaryVariant">#f18701</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#43A047</item>
+        <item name="colorSecondaryVariant">#2E7D32</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Status bar color -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+        <!-- Navigation bar color -->
+        <item name="android:navigationBarColor" tools:targetApi="l">?attr/colorPrimary</item>
     </style>
+
 </resources>
