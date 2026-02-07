@@ -1,26 +1,26 @@
 {
   "project_info": {
-    "project_number": "YOUR_DEV_PROJECT_NUMBER",
-    "project_id": "your-dev-project-id",
-    "storage_bucket": "your-dev-project-id.appspot.com"
+    "project_number": "777409613262",
+    "project_id": "sms-project-cf2ad",
+    "storage_bucket": "sms-project-cf2ad.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:YOUR_DEV_PROJECT_NUMBER:android:YOUR_DEV_APP_ID",
+        "mobilesdk_app_id": "1:777409613262:android:bcb60cb2e17e89e377ef9f",
         "android_client_info": {
           "package_name": "com.vernu.sms.dev"
         }
       },
       "oauth_client": [
         {
-          "client_id": "YOUR_DEV_CLIENT_ID",
+          "client_id": "",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "YOUR_DEV_API_KEY"
+          "current_key": "AIzaSyCgWpSh3WEdXU2sex5mAoTUT7stD3wra4k"
         }
       ],
       "services": {
